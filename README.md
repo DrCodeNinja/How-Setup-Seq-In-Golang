@@ -32,8 +32,17 @@ Run the Seq container with the following command:
 docker run -d --name seq --network seq-network -p 5341:5341 -v seq-data:/data datalust/seq:latest
 ```
 
-- --name seq gives the container a name.
-- --network seq-network attaches the container to the custom network.
-- -p 5341:5341 maps the container’s port 5341 to the host’s port 5341.
-- -v seq-data:/data mounts a volume named seq-data for persistent storage.
-- datalust/seq:latest specifies the image to use.
+- [--name] seq gives the container a name.
+- [--network seq-network] attaches the container to the custom network.
+- [-p 5341:5341] maps the container’s port 5341 to the host’s port 5341.
+- [-v seq-data:/data] mounts a volume named seq-data for persistent storage.
+- [datalust/seq:latest] specifies the image to use.
+
+## 4: Access Seq
+
+Open your web browser and go to:
+```bash
+http://localhost:5341
+```
+
+You should see the Seq web interface.
