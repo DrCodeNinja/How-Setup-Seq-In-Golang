@@ -29,7 +29,7 @@ docker pull datalust/seq
 Run the Seq container with the following command:
 
 ```bash
-docker run -d --name seq -p 5341:5341 -v seq-data:/data datalust/seq:latest
+docker run -d --name seq -e ACCEPT_EULA=Y -p 5341:5341 -v seq-data:/data datalust/seq:latest
 ```
 
 - [--name] seq gives the container a name.
