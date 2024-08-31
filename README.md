@@ -169,10 +169,11 @@ go run main.go / go run .
 
 ```bash
 http://localhost:8080/ping
+```
 
-copy and paste this url in the browser or make postman request and got to seq dashboard you will see the logs.
+Copy and paste this url in the browser or make postman request and got to seq dashboard you will see the logs.
 
-Thanks, is this helpfull don't foget to give a star for this.
+## Thanks for refer this, is this helpfull don't foget to give a star for this.
 
 
 
