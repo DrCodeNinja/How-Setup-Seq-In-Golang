@@ -11,7 +11,6 @@
 - [Step 2 - Setting Up the Project](#step-2---setting-up-the-project)
   - [2-1 Initialize the Project](#2-1-initialize-the-project)
   - [2-2 Install Dependencies](#2-2-install-dependencies)
-  - [Project Structure](#project-structure)
   - [2-3 Create the .env File](#2-3-create-the-env-file)
   - [2-4 Configuring the Project (main.go)](#2-4-configuring-the-project-maingo)
   - [2-5 Running the Application](#2-5-running-the-application)
