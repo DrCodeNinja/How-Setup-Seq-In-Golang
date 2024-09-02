@@ -1,4 +1,23 @@
-## Configure Seq in Golang Application
+# Configure Seq in Golang Application
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Step 1 - Setting Up Seq in Docker](#step-1---setting-up-seq-in-docker)
+  - [1-1 Create a Docker Network (Optional)](#1-1-create-a-docker-network-optional)
+  - [1-2 Pull the Seq Docker Image](#1-2-pull-the-seq-docker-image)
+  - [1-3 Run Seq Container](#1-3-run-seq-container)
+  - [1-4 Access Seq](#1-4-access-seq)
+- [Step 2 - Setting Up the Project](#step-2---setting-up-the-project)
+  - [2-1 Initialize the Project](#2-1-initialize-the-project)
+  - [2-2 Install Dependencies](#2-2-install-dependencies)
+  - [Project Structure](#project-structure)
+  - [2-3 Create the .env File](#2-3-create-the-env-file)
+  - [2-4 Configuring the Project (main.go)](#2-4-configuring-the-project-maingo)
+  - [2-5 Running the Application](#2-5-running-the-application)
+  - [2-6 Test the Route](#2-6-test-the-route)
+- [Conclusion](#conclusion)
+
 
 ## Step 1 - Setting Up Seq in Docker
 
