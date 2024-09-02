@@ -69,7 +69,7 @@ go mod init gin-golang-project
 go get -u github.com/gin-gonic/gin
 go get -u github.com/joho/godotenv
 go get -u github.com/sirupsen/logrus
-go get -u github.com/ropelive/logreseq
+go get -u github.com/nullseed/logruseq
 ```
 
 #### Here is a simple structure for your project
