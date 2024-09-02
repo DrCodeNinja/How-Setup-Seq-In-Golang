@@ -2,8 +2,8 @@
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
 - [Step 1 - Setting Up Seq in Docker](#step-1---setting-up-seq-in-docker)
+- [Prerequisites](#prerequisites)
   - [1-1 Create a Docker Network (Optional)](#1-1-create-a-docker-network-optional)
   - [1-2 Pull the Seq Docker Image](#1-2-pull-the-seq-docker-image)
   - [1-3 Run Seq Container](#1-3-run-seq-container)
