@@ -48,6 +48,11 @@ docker pull datalust/seq
 
 Run the Seq container with the following command:
 
+If you created seperate network use this:
+```bash
+docker run -d --name seq --network seq_network -p 5341:80 -v "$(pwd)/seq-data:/data" -e ACCEPT_EULA=Y datalust/seq:latest
+```
+else use this:
 ```bash
 docker run -d --name seq -p 5341:80 -v "$(pwd)/seq-data:/data" -e ACCEPT_EULA=Y datalust/seq:latest
 ```
